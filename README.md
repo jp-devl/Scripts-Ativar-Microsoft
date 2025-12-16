@@ -16,26 +16,18 @@ Clique no **Menu Iniciar**, digite `PowerShell` e abra-o.
 
 2. **Copie e cole o código abaixo e pressione Enter.**
 
-- Para **Windows 8, 10 e 11**: 📌
-
-``
-
-irm https://get.activated.win | iex
-
-``
-
-Se o método acima estiver bloqueado (pelo seu provedor de internet/DNS), tente este (requer Windows 10 ou 11 atualizado):
-
-``
-iex (curl.exe -s --doh-url https://1.1.1.1/dns-query https://get.activated.win | Out-String)
-
-``
-- Para **Windows 7** e versões posteriores:
-
-``
-iex ((New-Object Net.WebClient).DownloadString('https://get.activated.win'))
-
-``
+  - Para **Windows 8, 10 e 11**: 📌
+  ```
+  irm https://get.activated.win | iex
+  ```
+  Se o método acima estiver bloqueado (pelo seu provedor de internet/DNS), tente este (requer Windows 10 ou 11 atualizado):
+  ```
+  iex (curl.exe -s --doh-url https://1.1.1.1/dns-query https://get.activated.win | Out-String)
+  ```
+  - Para **Windows 7** e versões posteriores:
+  ```
+  iex ((New-Object Net.WebClient).DownloadString('https://get.activated.win'))
+  ```
 
 - **O script não está sendo executado? Use o Método 2 listado abaixo.**
 
