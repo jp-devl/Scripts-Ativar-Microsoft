@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://raw.githubusercontent.com/jp-devl/Scripts-Ativar-Microsoft/main/logo-img.jpeg" alt="MAS Logo" width="180">
+</p>
+
 
 <h1 align="center">Microsoft  Activation  Scripts (MAS)</h1>
 
